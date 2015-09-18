@@ -1,0 +1,10 @@
+﻿빌드 시작: 2015-09-14 오전 10:07:20
+     1>2 노드의 "C:\Users\clayton.choi\Desktop\Address\Address\Address\Address.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\clayton.choi\Desktop\Address\Address\Debug\Address.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib pthreadVC2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\clayton.choi\Desktop\Address\Address\Debug\Address.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\clayton.choi\Desktop\Address\Address\Debug\Address.lib" /MACHINE:X86 Debug\main.obj
+         Address.vcxproj -> C:\Users\clayton.choi\Desktop\Address\Address\Debug\Address.exe
+     1>"C:\Users\clayton.choi\Desktop\Address\Address\Address\Address.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.38
