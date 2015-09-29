@@ -18,10 +18,10 @@
     <ClCompile Include="BaseballUI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="BaseballFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BaseballFunc.cpp">
+    <ClCompile Include="mainUI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

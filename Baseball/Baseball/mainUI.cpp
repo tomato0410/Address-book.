@@ -1,23 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "BaseballUI.h"
+
+#define USER_MODE 1
+#define AI_MODE   2
+#define QUIT     0
 
 int main(void)
 {
-	int mode; 
+	int gameMode;
 	BaseballUI *baseballui = new BaseballUI;
 	
 	while(1)
 	{
-		mode = baseballui->requestMode();
-		if(mode == 1)
+		gameMode = baseballui->requestMode();
+		if(gameMode == 1)
 		{
 			baseballui->setUserMode();
 		}
-		else if(mode == 2)
+		else if(gameMode == 2)
 		{
 			baseballui->setAIMode();
 		}
-		else if(mode == 0)
+		else if(gameMode == 0)
 		{
 			break;
 		}

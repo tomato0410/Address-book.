@@ -80,7 +80,7 @@
   <ItemGroup>
     <ClCompile Include="BaseballFunc.cpp" />
     <ClCompile Include="BaseballUI.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseballFunc.h" />
