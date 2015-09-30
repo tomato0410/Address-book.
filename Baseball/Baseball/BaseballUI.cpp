@@ -46,7 +46,7 @@ int BaseballUI :: requestMode()
 		printf("\n After %d-times trying, You get a correct answer~!\n", baseballfunc->tryCount);
 		printf("\n Do you want to play again? (1.Try again, 0.Quit user mode)\n");
 		printf("Mode : ");
-		scanf_s("%d", &quitMode);    
+		scanf_s("%d", &quitMode);
 		fflush(stdin);
 		if(quitMode == 0)
 		{
@@ -70,9 +70,6 @@ void BaseballUI :: setAIMode()
 			baseballfunc->tryCount = 0;
 		}
 		baseballfunc->generateRandom();
-
-		printf("Guess Start: ");
-		scanf_s("%d", &i);
 		while(1)
 		{
 			baseballfunc->tryCount++;

@@ -44,9 +44,12 @@ void BaseballFunc :: generateAnswer()
 
 void BaseballFunc :: guessNumber()	// Number Guessing Algorithm
 {
-	int i, tableSize;
+	int i, start, tableSize;
 	int prevResult[2] = {0,};
+	
 	printf("\n( Guess Number )\n");
+	printf("Start! "); scanf_s("%d", &start); fflush(stdin);
+
 	memcpy(prevResult, result, 2*sizeof(int));
 
 	if(!table)
